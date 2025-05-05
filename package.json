@@ -1,14 +1,23 @@
 {
-  "name": "reajuste-salarial",
+  "name": "reajuste",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "build": "echo 'Build completo!'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EhuJoao/reajuste-salarial"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Joao Alves",
   "license": "ISC",
-  "description": "",
+  "description": "Criação de api para calcular reajuste salarial",
+  "homepage": "https://github.com/EhuJoao/reajuste-salarial#readme",
   "dependencies": {
     "express": "^5.1.0"
   }

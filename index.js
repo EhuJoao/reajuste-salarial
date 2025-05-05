@@ -129,6 +129,6 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor online em: http://localhost:${port}`);
 });
-
+export default app;
 
 // http://localhost:3000/?idadeFuncionario=30&genero=M&salarioBase=2000&anoEntrada=2021&codigoFuncionario=123
